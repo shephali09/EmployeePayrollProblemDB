@@ -34,3 +34,8 @@ select count(name) from employee_payroll where gender='F' group by gender;
 select min(salary) from employee_payroll;
 select max(salary) from employee_payroll;
 select avg(salary) from employee_payroll;
+
+---- UC8 ----
+alter table employee_payroll add phone varchar(15) not null after start_date;
+alter table employee_payroll add address varchar(100) not null default 'Not Available' after phone;
+alter table employee_payroll add department varchar(100) not null after address;
