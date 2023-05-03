@@ -1,0 +1,5 @@
+id,name,gender,salary,start_date,phone,address,department,basic_pay,deductions,taxable_pay,income_pay,net_pay
+1,Bill,M,10000,2010-05-02,8798967543,"Not Available",Sales,NULL,NULL,NULL,NULL,NULL
+2,Neeta,F,10000,2010-05-02,7654321879,"Not Available",Marketing,NULL,NULL,NULL,NULL,NULL
+3,Shephali,F,2000,2022-01-22,7978656534,"Not Available",Sales,NULL,NULL,NULL,NULL,NULL
+4,Akash,M,3000,2020-11-09,9654421879,"Not Available",Marketing,NULL,NULL,NULL,NULL,NULL
