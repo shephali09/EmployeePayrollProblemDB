@@ -17,3 +17,8 @@ insert into employee_payroll(name,salary,start_date) values('Akash',3000.00,'202
 
 ---- UC4 ----
 select * from employee_payroll;
+
+---- UC5 ----
+select name, salary from employee_payroll where name='Bill';
+
+select * from employee_payroll where start_date between cast('2020-01-22' as date) and date(now());
